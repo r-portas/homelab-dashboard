@@ -8,12 +8,16 @@ import Icon from "@mui/material/Icon";
 import Stack from "@mui/material/Stack";
 import { useUiServices, Service } from "../consul";
 import Link from "./Link";
+import SystemOverview from "./SystemOverview";
 
 export default function Services() {
   const { data } = useUiServices();
 
   return (
     <Grid container spacing={2}>
+      <Grid sx={12} sm={6} md={4}>
+        <SystemOverview />
+      </Grid>
       {data &&
         data.map((service) => (
           <ServiceCard key={service.name} service={service} />
