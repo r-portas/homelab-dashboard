@@ -5,6 +5,6 @@ describe("Header", () => {
   it("renders a heading", () => {
     render(<Header />);
 
-    expect(screen.getByText("App Template")).toBeInTheDocument();
+    expect(screen.getByText("Homelab Dashboard")).toBeInTheDocument();
   });
 });

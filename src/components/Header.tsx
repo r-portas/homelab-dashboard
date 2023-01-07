@@ -9,7 +9,7 @@ export default function Header() {
       <Toolbar>
         <RocketLaunchIcon sx={{ mr: 2 }} />
         <Typography variant="h6" color="inherit" noWrap>
-          App Template
+          Homelab Dashboard
         </Typography>
       </Toolbar>
     </AppBar>
