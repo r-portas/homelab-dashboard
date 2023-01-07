@@ -15,7 +15,7 @@ export default function Services() {
 
   return (
     <Grid container spacing={2}>
-      <Grid sx={12} sm={6} md={4}>
+      <Grid xs={12} sm={6} md={4}>
         <SystemOverview />
       </Grid>
       {data &&
