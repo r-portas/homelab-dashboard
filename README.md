@@ -1,6 +1,8 @@
 # `homelab-dashboard`
 
-An boilerplate for rapidly building web applications using Next.js and MUI.
+> A dashboard for my homelab
+
+![Screenshot](./docs/example.png)
 
 ## Install
 
