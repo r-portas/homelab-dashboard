@@ -31,7 +31,7 @@ export default function SystemOverview() {
           <Section
             xs={4}
             title="Root Filesystem"
-            value={`${(round(data.rootFilesystem), 2)}%`}
+            value={`${round(data.rootFilesystem, 2)}%`}
           />
           <Section
             xs={4}
