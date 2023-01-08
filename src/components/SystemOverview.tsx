@@ -68,7 +68,7 @@ interface SectionProps {
 function Section({ title, value, xs }: SectionProps) {
   return (
     <Grid xs={xs}>
-      <Box>
+      <Box sx={{ paddingTop: 1 }}>
         <Typography
           variant="body1"
           color="text.secondary"
